@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-image: url('https://www.ultraimagehub.com/wallpapers/tr:flp-false,gx-0.5,gy-0.6,q-75,rh-3264,rw-5824,th-1080,tw-1920/1227142375072202782.jpeg'); /* URL de fondo con temática de gatos */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente para el contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#catImages img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 3px solid #fff; /* Borde blanco alrededor de las imágenes */
+}
